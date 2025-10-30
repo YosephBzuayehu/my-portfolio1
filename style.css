@@ -397,6 +397,7 @@
             box-shadow: var(--shadow);
             text-align: center;
             transition: var(--transition);
+            border-top: 4px solid #3498db;
         }
 
         .skill-item:hover {
@@ -405,11 +406,20 @@
 
         .skill-icon {
             font-size: 2.5rem;
-            color: var(--primary);
             margin-bottom: 15px;
         }
+          /* Icon colors */
+        .fa-html5 { color: #9b59b6; }
+        .fa-js{ color: #e74c3c; }
+        .fa-react { color: #3498db; }
+        .fa-python { color: #2ecc71; }
+        .fa-java { color: #f39c12; }
+        .fa-php { color: #1abc9c; }
+        .fa-node-js { color: #e67e22; }
+        .fa-code { color: #34495e; }
+
        .skill-icon:hover i {
-            color: #ff6600;   
+            opacity: 0.8;
             transform: scale(1.5); 
         }
         .skill-item h3 {
